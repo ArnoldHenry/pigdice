@@ -1,0 +1,29 @@
+h3 {
+  padding: 2%;
+  text-align: center;
+}
+p.playerone{
+  text-align: center;
+}
+p.playertwo{
+  text-align: center;
+}
+p.points{
+  text-align: center;
+}
+.playground{
+  text-align: center;
+
+}
+.divplay{
+  margin-left: 1%;
+}
+.roll{
+  margin: 5%;
+}
+.mydice{
+  font-size:6rem;
+}
+.points{
+  text-align: center;
+}
