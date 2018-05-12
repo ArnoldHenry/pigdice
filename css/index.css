@@ -4,9 +4,15 @@ h3 {
 }
 p.playerone{
   text-align: center;
+  font-family: 'Tangerine',serif;
+  font-size: 3em;
+  text-shadow: 2px 2px 3px #C2E0FF;
 }
 p.playertwo{
   text-align: center;
+  font-family: 'Tangerine',serif;
+  font-size: 3em;
+  text-shadow: 2px 2px 3px #FBBFBF;
 }
 p.points{
   text-align: center;
@@ -26,4 +32,79 @@ p.points{
 }
 .points{
   text-align: center;
+}
+.bginfo{
+  opacity: 0.7;
+  transition: 2s ;
+  box-shadow: 1px 1px 3px 1px;
+  padding: 1%;
+  border-radius: 6px;
+}
+.bginfo:hover{
+  transition: 2s;
+  box-shadow: 1px 1px 3px 1px #7EEDF3;
+}
+.bgplayerone{
+  box-shadow: 4px 6px 9px -3px #C2E0FF;
+  padding: 1%;
+  transition: 2s;
+}
+.bgplayerone:hover{
+  box-shadow: 0 12px 18px -6px #95AFFF;
+  padding: 1%;
+  transition: 2s;
+}
+#playerone{
+  color:#0036FF;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Tangerine',serif;
+}
+.bgplayertwo{
+  box-shadow: 4px 6px 9px -3px #FBBFBF;
+  padding: 1%;
+  transition: 2s;
+}
+.bgplayertwo:hover{
+  box-shadow: 0 12px 18px -6px #FF9595;
+  padding: 1%;
+  transition: 2s;
+}
+#playertwo{
+  color:#FF0000;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Tangerine',serif;
+}
+.total{
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 3px #E6EAEC;
+  color: #000000;
+  font-family: 'Italianno';
+}
+#sumplayerone{
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 2px 2px 3px #E6EAEC;
+  color: #52B400;
+  font-family: 'Italianno';
+  padding: 2%;
+  box-shadow: 0 3px 4px -6px #E6EAEC;
+}
+#sumplayertwo{
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 2px 2px 3px #E6EAEC;
+  color: #52B400;
+  font-family: 'Italianno';
+  padding: 2%;
+  box-shadow: 0 3px 4px -6px #E6EAEC;
+}
+.points{
+  font-family: 'Qwigley';
+  font-size: 3em;
+  text-shadow: 1px 1px 1px #FBBFBF;
+  color: #9BC6C4;
+  opacity: 0.9;
 }
