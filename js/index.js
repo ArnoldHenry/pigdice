@@ -10,6 +10,7 @@ function rolldice(){
         me = Math.floor(Math.random()*6);
         output = "&#x268" + me + "; ";
         document.getElementById('players').innerHTML = output;
+        $("p#players").css({"text-align":"center","font-weight":"thin","color":"#7F84C5","font-size":"7em"});
         summation = (me+1);
         // alert(me);
         if (summation == 1) {

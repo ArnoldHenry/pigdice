@@ -108,3 +108,70 @@ p.points{
   color: #9BC6C4;
   opacity: 0.9;
 }
+.roll{
+  border: none;
+  padding: 5%;
+  font-family: 'Artifika';
+  font-size: 1.5em;
+  box-shadow: 1px 2px 1px 1px #C2E0FF;
+  border-radius: 4px;
+  background: #FFFFFFFF;
+  transition: 2s;
+}
+.roll:hover{
+  box-shadow: 1px 2px 3px 3px #95AFFF;
+  transition: 2s;
+}
+.roll2{
+  border: none;
+  padding: 5%;
+  font-family: 'Artifika';
+  font-size: 1.5em;
+  box-shadow: 1px 2px 1px 1px #FBBFBF;
+  border-radius: 4px;
+  background: #FFFFFFFF;
+  transition: 2s;
+}
+.roll2:hover{
+  box-shadow: 1px 2px 3px 3px #FF9595;
+  transition: 2s;
+}
+.check{
+  color: #84D3D2;
+  border: none;
+  padding: 5%;
+  font-family: 'Artifika';
+  font-size: 1.5em;
+  box-shadow: 1px 1px 1px 1px #84D3D2;
+  border-radius: 4px;
+  background: #FFFFFFFF;
+  transition: 1s;
+  width: 100%;
+}
+.check:hover{
+  color: #FFFFFFFF;
+  background: #FA5F5F;
+  transition: 1s;
+}
+.playground{
+  font-family: 'Qwigley';
+  font-size: 3em;
+  text-shadow: 1px 1px 1px #FBBFBF;
+  color: #9BC6C4;
+  opacity: 0.9;
+}
+.divplay{
+  opacity: 0.7;
+  transition: 2s ;
+  box-shadow: 1px 1px 3px 1px;
+  padding: 1%;
+  border-radius: 6px;
+}
+.players{
+  background-color: red;
+}
+span{
+  font-size: 3em;
+  font-family: 'Megrim';
+  font-weight: bold;
+}

@@ -5,11 +5,22 @@
     <title>Pig Dice</title>
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap3.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Italianno|Qwigley">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Italianno|Qwigley|Artifika|Megrim">
   </head>
   <body>
     <div class="container">
-      <h3>Pig Dice</h3>
+      <h3>
+        <p>
+          <span style='color:#C2E0FF'>P</span>
+          <span style='color:#FBBFBF'>i</span>
+          <span style='color:#7EEDF3'>g</span>
+          &nbsp
+          <span style='color:#95AFFF'>D</span>
+          <span style='color:#FBBFBF'>i</span>
+          <span style='color:#FF9595'>c</span>
+          <span style='color:#E6EAEC'>e</span>
+        </p>
+      </h3>
       <div class="row">
           <div class="col-sm-6 bginfo">
             <p class="points">Points</p>
@@ -29,12 +40,12 @@
           </div>
 
         <div class="col-sm-6">
-          <div class="col-sm-6 bg-success mybuttons">
+          <div class="col-sm-6 mybuttons">
               <button type="button" class="roll" id="roll" onclick="rolldice(); return false;">Player 1</button>
-              <button type="button" class="roll" id="roll2" onclick="rolldice2(); return false;">Player 2</button>
+              <button type="button" class="roll2" id="roll2" onclick="rolldice2(); return false;">Player 2</button>
               <button type="submit" onclick="check();" class="check">Hold</button>
           </div>
-          <div class="col-sm-5 bg-success divplay">
+          <div class="col-sm-5 divplay">
             <p class="playground">playground</p>
             <p class="mydice" id="players"></p>
           </div>
