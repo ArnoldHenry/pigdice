@@ -5,7 +5,7 @@ var sum = 0;
 var sum2 = 0;
 
 function rolldice(){
-
+document.getElementById('roll2').disabled = true;
   var output = '',
         me = Math.floor(Math.random()*6);
         output = "&#x268" + me + "; ";
@@ -33,7 +33,7 @@ function rolldice(){
 
 }
 function rolldice2(){
-
+document.getElementById('roll').disabled = true;
   var output = '',
         me = Math.floor(Math.random()*6);
         output = "&#x268" + me + "; ";
@@ -57,5 +57,14 @@ function rolldice2(){
 
           }
         }
-
+}
+function check(){
+  var button2 = document.getElementById('roll2');
+if ($(button2).is(':disabled')) {
+    document.getElementById('roll2').disabled = false;
+    document.getElementById('roll').disabled = true;
+}else{
+  document.getElementById('roll').disabled = false;
+  document.getElementById('roll2').disabled = true;
+}
 }
