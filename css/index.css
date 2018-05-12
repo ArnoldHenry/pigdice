@@ -34,11 +34,12 @@ p.points{
   text-align: center;
 }
 .bginfo{
-  opacity: 0.7;
+  opacity: 0.9;
   transition: 2s ;
   box-shadow: 1px 1px 3px 1px;
   padding: 1%;
   border-radius: 6px;
+  background-color: #FFFFFF;
 }
 .bginfo:hover{
   transition: 2s;
@@ -166,6 +167,7 @@ p.points{
   box-shadow: 1px 1px 3px 1px;
   padding: 1%;
   border-radius: 6px;
+  background-color: #FFFFFF;
 }
 .players{
   background-color: red;
@@ -174,4 +176,12 @@ span{
   font-size: 3em;
   font-family: 'Megrim';
   font-weight: bold;
+}
+#masoko{
+  z-index: -8;
+  min-width: 100%;
+  min-height: 100%;
+  bottom: 0;
+  right: 0;
+  position: fixed;
 }
