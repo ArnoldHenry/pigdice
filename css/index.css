@@ -199,7 +199,7 @@ padding-top: 8%;
 }
 .content{
   margin:auto;
-  width: 35%;
+  width: 50%;
   background-color: #FFFFFF;
   padding: 2%;
   text-align: center;
@@ -207,7 +207,7 @@ padding-top: 8%;
 }
 .myheading{
   font-family:'Qwigley';
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
 }
 .playturn{
@@ -229,3 +229,14 @@ li{
   transition: 2s;
   cursor: pointer;
 }
+.mybutton{
+  border: none;
+  background-color: rgba(113, 195, 198,0.5);
+  color: #FFFFFF;
+  font-family: 'Artifika';
+  font-size: 1.5em;
+  border-radius: 5px;
+  padding: 1%;
+  float: right;
+  margin-top: 5%;
+  }
