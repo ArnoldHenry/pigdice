@@ -7,7 +7,7 @@ This is a Pig-Dice web application.Instructions are ;
 * If the player rolls any other number, it is added to their turn total and the player's turn continues.
 * If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
 The first player to score 100 or more points wins.
-![Screen-shot Landing page](images/screenshot.png)
+![Screen-shot Landing page](images/Screenshot.png)
 ## Setup/Installation Requirements
 No installation needed just click the link below to view my website online
 [Ping-Pong](https://arnoldhenry.github.io/pigdice/)
