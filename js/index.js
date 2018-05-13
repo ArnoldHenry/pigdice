@@ -10,6 +10,8 @@ var sum2 = 0;
 
 function rolldice(){
 document.getElementById('roll2').disabled = true;
+
+
   var output = '',
         me = Math.floor(Math.random()*6);
         output = "&#x268" + me + "; ";
@@ -20,7 +22,7 @@ document.getElementById('roll2').disabled = true;
         if (summation == 1) {
           document.getElementById('roll2').disabled = false;
           document.getElementById('roll').disabled = true;
-          alert("Sorry, no points for you :(");
+          alert("Sorry, no points for player 1 :(");
         }else{
           document.getElementById('roll').disabled = false;
           player1.push(summation);
@@ -47,7 +49,7 @@ document.getElementById('roll').disabled = true;
         if (summation == 1) {
           document.getElementById('roll').disabled = false;
           document.getElementById('roll2').disabled = true;
-          alert("Nothing to push");
+          alert("Sorry, no points for player 2 :(");
         }else{
           document.getElementById('roll2').disabled = false;
           player2.push(summation);
