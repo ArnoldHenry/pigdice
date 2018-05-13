@@ -185,3 +185,47 @@ span{
   right: 0;
   position: fixed;
 }
+.myinstru{
+width: 100%;
+height: 100%;
+position: fixed;
+background-color: rgba(197, 244, 243, 0.6);
+z-index: 45;
+overflow: auto;
+display: none;
+left: 0;
+top: 0;
+padding-top: 8%;
+}
+.content{
+  margin:auto;
+  width: 35%;
+  background-color: #FFFFFF;
+  padding: 2%;
+  text-align: center;
+  border-radius: 7px;
+}
+.myheading{
+  font-family:'Qwigley';
+  font-size: 4em;
+  font-weight: bold;
+}
+.playturn{
+  font-size: 2em;
+  font-family: 'Italianno';
+}
+li{
+  font-family: 'Tangerine',serif;
+  font-size: 2em;
+}
+.close{
+  font-size: 58px;
+  color: #FF0000;
+  transition: 2s;
+  float: right;
+}
+.close:hover{
+  color: #FF9595;
+  transition: 2s;
+  cursor: pointer;
+}

@@ -8,9 +8,24 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Italianno|Qwigley|Artifika|Megrim">
   </head>
   <body>
-    <video controls autoplay loop id="masoko" poster="images/blur.jpg">
+    <button id="instructions">Instructions</button>
+    <div id="instru" class="myinstru">
+      <div class="content" id="mycontent">
+        <span class="close">&times;</span>
+        <u><p class="myheading">Instructions</p></u>  
+        <p class="playturn">Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</p>
+        <ul>
+          <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+          <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+          <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+        </ul>
+        <p class="playturn">The first player to score 100 or more points wins.</p>
+      </div>
+    </div>
+    <!-- <video controls autoplay loop id="masoko" poster="images/blur.jpg"> -->
         <source src="video/masoko.mp4" type="video/mp4">
     </video>
+
     <div class="container">
       <h3>
         <p>
@@ -58,5 +73,6 @@
       </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/index.js"></script>
+
   </body>
 </html>

@@ -1,3 +1,7 @@
+$(document).ready(function(){
+
+});
+
 var max = 100;
 var player1 = [];
 var player2 = [];
@@ -67,4 +71,22 @@ if ($(button2).is(':disabled')) {
   document.getElementById('roll').disabled = false;
   document.getElementById('roll2').disabled = true;
 }
+}
+
+// js code for instructions
+var btn = document.getElementById('instructions');
+var darkcover = document.getElementById("instru");
+var close = document.getElementsByClassName("close")[0];
+
+btn.onclick = function(){
+  darkcover.style.display = "block";
+}
+close.onclick = function(){
+  darkcover.style.display = "none";
+}
+
+window.onclick = function(event){
+  if (event.target == darkcover) {
+    darkcover.style.display = "none";
+  }
 }
